@@ -1,8 +1,7 @@
 package kata
 
+import model.ListNode
 import java.util.*
-
-data class ListNode(val value: Int, val next: ListNode? = null)
 
 /*
     Given the head of a singly linked list, return true if it is a palindrome.
